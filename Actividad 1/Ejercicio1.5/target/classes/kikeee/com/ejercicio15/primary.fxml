@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="340.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kikeee.com.ejercicio15.PrimaryController">
+   <children>
+      <Label layoutX="30.0" layoutY="34.0" text="Alimentación" />
+      <TextField fx:id="txtAlimentacion" alignment="CENTER_RIGHT" layoutX="160.0" layoutY="30.0" prefWidth="160.0" />
+
+      <Label layoutX="30.0" layoutY="84.0" text="Refrigerios" />
+      <TextField fx:id="txtRefrigerios" alignment="CENTER_RIGHT" layoutX="160.0" layoutY="80.0" prefWidth="160.0" />
+
+      <Label layoutX="30.0" layoutY="134.0" text="Transporte" />
+      <TextField fx:id="txtTransporte" alignment="CENTER_RIGHT" layoutX="160.0" layoutY="130.0" prefWidth="160.0" />
+
+      <Label layoutX="30.0" layoutY="184.0" text="Telefonía" />
+      <TextField fx:id="txtTelefonia" alignment="CENTER_RIGHT" layoutX="160.0" layoutY="180.0" prefWidth="160.0" />
+
+      <Label layoutX="30.0" layoutY="234.0" text="Otros" />
+      <TextField fx:id="txtOtros" alignment="CENTER_RIGHT" layoutX="160.0" layoutY="230.0" prefWidth="160.0" />
+
+      <Button layoutX="30.0" layoutY="285.0" mnemonicParsing="false" onAction="#calcular" text="Calcular estadísticas" />
+      <Button layoutX="190.0" layoutY="285.0" mnemonicParsing="false" onAction="#limpiar" prefWidth="100.0" text="Limpiar" />
+
+      <Label layoutX="370.0" layoutY="34.0" text="Estadísticas" />
+
+      <Label layoutX="370.0" layoutY="84.0" text="Total semanal" />
+      <TextField fx:id="txtTotal" alignment="CENTER_RIGHT" editable="false" layoutX="370.0" layoutY="110.0" prefWidth="180.0" />
+
+      <Label layoutX="370.0" layoutY="184.0" text="Gasto más alto" />
+      <TextField fx:id="txtMasAlto" alignment="CENTER" editable="false" layoutX="370.0" layoutY="210.0" prefWidth="180.0" />
+   </children>
+</AnchorPane>

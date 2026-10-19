@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kikeee.com.mavenproject2.PrimaryController">
+   <children>
+      <Label layoutX="50.0" layoutY="50.0" text="Fecha de nacimiento" />
+      <TextField fx:id="txtFecha" focusTraversable="false" layoutX="250.0" layoutY="46.0" prefWidth="170.0" promptText="dd/mm/aaaa" />
+      <Button layoutX="50.0" layoutY="100.0" mnemonicParsing="false" onAction="#calcular" text="Calcular" />
+      <Button layoutX="140.0" layoutY="100.0" mnemonicParsing="false" onAction="#limpiar" text="Limpiar" />
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="0.0" layoutY="170.0" prefWidth="500.0" style="-fx-font-style: italic; -fx-font-size: 16px;" text="" />
+   </children>
+</AnchorPane>

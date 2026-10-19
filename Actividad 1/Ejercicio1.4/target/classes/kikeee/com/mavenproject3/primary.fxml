@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kikeee.com.mavenproject3.PrimaryController">
+   <children>
+      <Label layoutX="30.0" layoutY="30.0" text="Tabla del:" />
+      <TextField fx:id="txtNumero" layoutX="30.0" layoutY="60.0" prefWidth="60.0" />
+      <Button layoutX="200.0" layoutY="30.0" mnemonicParsing="false" onAction="#calcular" prefWidth="90.0" text="Calcular" />
+      <Button layoutX="200.0" layoutY="70.0" mnemonicParsing="false" onAction="#limpiar" prefWidth="90.0" text="Limpiar" />
+      <TextArea fx:id="txtTabla" editable="false" layoutX="30.0" layoutY="125.0" prefHeight="240.0" prefWidth="260.0" />
+   </children>
+</AnchorPane>
